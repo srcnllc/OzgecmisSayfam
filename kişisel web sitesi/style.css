@@ -1,0 +1,58 @@
+body {margin: 0;
+    padding: 0;
+    background:url(arka2.jpg);
+    background-size: cover;
+}
+.box {
+    width: 500px;
+    background:#363636;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color:white;
+    font-family: sans-serif;
+}
+.box h1{
+    font-family:Bradley Hand ITC;
+    font-size:30px;
+    letter-spacing:4px;
+    color:#b7ffe1;
+    font-weight:bold;
+}
+.box h2{
+    font-family: Shelby ;
+    letter-spacing:4px;
+    color:#b7ffe1;
+}
+.box h4{
+    color:#b7ffe1;
+
+}
+.box img {
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    cursor: pointer;
+    transition:0.5s;
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+ul{
+    margin:0;
+    padding:0;
+}
+.box li{
+    display: inline-block;
+    margin: 8px;
+    list-style:none;
+}
+.box li a{
+    color: #7298ff;
+    font-size:40px;
+    transition:all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: brown;
+}
